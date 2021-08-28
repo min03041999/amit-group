@@ -1,0 +1,141 @@
+.our-mission{
+    font-family: abc;
+    position: relative;
+
+    .mission {
+        box-sizing: border-box;
+        padding: 70px 0px;
+        background: #bfe1f7;
+
+        .title{
+            font-family: medium;
+            color: #707070;
+            font-size: 50px;
+            text-align: center;
+            margin-bottom: 30px;
+            span {
+                text-decoration: underline 8px #01BDD5;
+            }
+        }
+
+        .content {
+            display: flex;
+            padding: 0 100px;
+            .img-mission {
+                width: 20%;
+
+                img{
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .text {
+                width: 80%;
+                font-size: 17px;
+                padding: 0 30px;
+                color: #707070;
+            }
+        }
+    }
+
+    .mission:nth-child(2) {
+        background: #fff;
+    }
+}
+
+.our-leadership{
+    .title{
+        font-family: abc;
+        text-align: center;
+        h2 {
+            font-family: medium;
+            color: #707070;
+            font-size: 50px;
+            margin: 70px 0px 30px 0px;
+
+            span {
+                text-decoration: underline 8px #01BDD5;
+            }
+        }
+        p{
+            color: #707070;
+            font-size: 17px;
+            font-weight: 100;
+        }
+        
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 500px;
+        display: block;
+    }
+
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background-color: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+
+        .item{
+            box-sizing: border-box;
+            width: 100%;
+            height: 100%;
+            padding: 30px 20px;
+
+            img{
+                width: 70%;
+                object-fit: cover;
+            }
+
+            .title{
+                font-family: abc;
+                text-align: center;
+                h2{
+                    font-family: medium;
+                    font-size: 20px;
+                    background: linear-gradient(to right, #01BDD5, #01A6CA, #008FBE);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    margin: 10px 0px;
+                }
+                h3{
+                    font-size: 17px;
+                    font-weight: 100;
+                    margin-bottom: 10px;
+                    background: linear-gradient(to right, #01BDD5, #01A6CA, #008FBE);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+
+                .text{
+                    color: #707070;
+                    font-size: 17px;
+                    font-weight: 100;
+                }
+            }
+
+        }
+    }
+
+    .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: 53px;
+        left: 0;
+        width: 100%;
+    }
+}

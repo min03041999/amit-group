@@ -1,0 +1,50 @@
+.footer {
+    font-family: 'abc';
+    position: relative;
+    display: flex;
+    background-image: linear-gradient(to right, #01bdd5, #007a8a);
+    color: #fff;
+    font-size: 17px;
+    padding: 30px 30px 50px 30px;
+    line-height: 25px;
+
+    &-content:first-child{
+        width: 40%;
+        img{
+            width: 40%;
+            object-fit: cover;
+            display: block;
+            margin: auto;
+        }
+        .phone{
+            display: none;
+        }
+    }
+
+
+    &-content:nth-child(2){
+        width: 25%;
+
+        hr{
+            border-top: 1px solid #fff;
+            width: 20%;
+            margin: 10px 0;
+        }
+    }
+
+    &-content:nth-child(3){
+        width: 35%;
+
+        p:last-child{
+            margin-top: 25px;
+        }
+    }
+}
+
+.footer-bottom{
+    position: relative;
+    padding: 10px 0px;
+    text-align: center;
+    color: #01bdd5;
+
+}

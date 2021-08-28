@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: abc;
+    src: url(./assert/font/Futura-Book-font.ttf);
+}
+@font-face {
+    font-family: medium;
+    src: url(./assert/font/futura-medium-bt.ttf);
+}
+@font-face {
+    font-family: hevery;
+    src: url(./assert/font/Futura-Heavy-font.ttf);
+}
+@font-face {
+    font-family: regular;
+    src: url(./assert/font/VNF-Futura-Regular.ttf);
+}

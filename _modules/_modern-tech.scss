@@ -1,0 +1,103 @@
+.modern-tech{
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    h3{
+        background: linear-gradient(to right, #01bdd5, #01A6CA, #008FBE);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: medium;
+        font-size: 48px;
+    }
+    p{
+        color: #707070;
+        font-size: 20px;
+        font-family: 'abc';
+        font-weight: 100;
+        margin: 30px 0px;
+    }
+
+    .img-modern{
+        width: 24%;
+        object-fit: cover;
+        position: absolute;
+        top: -36px;
+        right: 0;
+
+    }
+
+    &-list{
+        display: flex;
+        flex-wrap: wrap;
+
+        &-item{
+            width: calc(100%/5);
+            position: relative;
+            text-align: center;
+            &-content{
+                padding: 20px;
+
+                &-title{
+                    color: #707070;
+                    font-size: 18px;
+                    font-family: 'abc';
+                    font-weight: 100;
+                }
+
+                &-title:hover {
+                    font-size: 18px;
+                    color: #01bdd5;
+                }
+                &-img{
+                    padding-top: 45px;
+                }
+            }
+        }     
+        &-item:first-child{
+            img{
+                width: 45%;
+                object-fit: cover;
+            }
+        }
+
+        &-item:nth-last-child(2){
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &-item:nth-last-child(3){
+            img{
+                width: 80%;
+                object-fit: cover;
+            }
+        }
+        
+        &-item:nth-last-child(4){
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        &-item:last-child{
+            img{
+                padding-top: 25px;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+
+.line-component {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url(../assert/line-component-right-2.png) no-repeat;
+    background-position: 76px;
+    background-size: contain;
+    width: 19%;
+    height: 160px;
+}

@@ -1,0 +1,124 @@
+.design-container{
+    margin-top: 30px;
+    .design-title{
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        h2{
+            font-size: 75px;
+            color: #01bdd5;
+            opacity: 20%;
+            text-transform: uppercase;
+            transform: translateX(400px);
+        }
+        
+        h3{
+            color: #01bdd5;
+            text-align: center;
+            font-size: 48px;
+            transform: translate(0px, -157px);
+        }
+
+        .img-design{
+            width: 24%;
+            object-fit: cover;
+            transform: translate(-77px, -255px);
+        }
+    }
+
+    .grid-container-design{
+        margin-top: -125px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 40px;
+
+        img{
+            width: 10%;
+            object-fit: cover;
+        }
+
+        .content{
+            box-sizing: border-box;
+            padding: 30px 105px 0px 105px;
+
+            h2{
+                letter-spacing: 2px;
+                font-family: medium;
+                font-size: 30px;
+                text-transform: uppercase;
+                background: linear-gradient( to top, #01BDD5, #01A6CA, #008FBE);
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+            }
+
+            h3{
+                margin: 10px 0;
+                font-family: abc;
+                font-weight: 100;
+                font-size: 16px;
+                background: linear-gradient( to top, #01BDD5, #01A6CA, #008FBE);
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+            }
+
+            p {
+                font-family: abc;
+                font-weight: 100;
+                color: #707070;
+            }
+
+            a{
+                text-decoration: none;
+                margin-top: 15px;
+                font-family: abc;
+                font-weight: 100;
+                color: #01BDD5;
+                cursor: pointer;
+            }
+        }
+
+        .item-design-1{
+            order: 1;
+
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        
+        .item-design-2{
+            order: 2;
+        }
+
+        .item-design-3{
+            order: 3;
+            grid-column: 1 / span 2;
+
+
+            .grid-design-3{
+                display: grid;
+                grid-template-columns: repeat(2 , 1fr);
+
+
+                img{
+                    width: 30%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+        .item-design-4{
+            order: 4;
+
+            
+            img{
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .item-design-5{
+            order: 5;
+        }
+    }
+}

@@ -1,0 +1,220 @@
+.jobs{
+    margin-top: 30px;
+
+    .job{
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        .img-job{
+            width: 24%;
+            object-fit: cover;
+            position: absolute;
+            right: -76px;
+        }
+
+        .title{
+            h2{
+                font-family: medium;
+                font-size: 130px;
+                color: #01bdd5;
+                opacity: 12%;
+            }
+
+            h3{
+                font-family: abc;
+                font-weight: 100;
+                color: #707070;
+                font-size: 28px;
+                transform: translateY(-80px);
+
+                span{
+                    text-decoration: underline 9px #01BDD5;
+                }
+            }
+        }
+    }
+
+    .grid-container-apply{
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
+        grid-gap: 20px;
+        padding: 0px 100px;
+
+        .item-apply-1{
+            order: 1;
+        }
+        .item-apply-2{
+            order: 2;
+        }
+        .item-apply-3{
+            order: 3;
+        }
+        .item-apply-4{
+            order: 4;
+        }
+        .item-apply-5{
+            order: 5;
+        }
+        .item-apply-6{
+            order: 6;
+        }
+
+        .item{
+            box-sizing: border-box;
+            border: 1px solid #707070;
+            padding: 30px 50px;
+            color: #707070;
+
+            .row{
+                position: relative;
+                display: flex;
+
+                .level-left{
+                    h2{
+                        font-family: abc;
+                        font-size: 23px;
+                        color: #707070;
+                    }
+                    p{
+                        font-family: 'abc';
+                        font-weight: 100;
+                    }
+                }
+
+                .level-right{
+                    position: absolute;
+                    right: 0;
+
+                    p{
+                        font-family: abc;
+                        font-weight: 100;
+                        font-size: 17px;
+                    }
+                }
+            }
+
+            .hr{
+                margin: 20px 0px;
+                width: 20%;
+                height: 2px;
+                background: #000;
+            }
+
+            .content{
+                font-family: abc;
+                .requires{
+                    margin-bottom: 15px;
+                }
+
+                .job-des{
+                    margin-bottom: 15px;
+                }
+                
+                .tech-requires{
+                    margin-bottom: 15px;
+                }
+
+                .icon{
+                    .icon-three{
+                        position: relative;
+                        i{
+                            color: #01bdd5;
+                        }
+                        .icon-1 {
+                            display: inline;
+                        }
+                        .icon-2 {
+                            display: inline;
+                            position: absolute;
+                            right: 0;
+                        }
+                        .icon-3 {
+                            margin: 10px 0;
+                        }
+                    }
+
+                    .btn-apply{
+                        width: 100%;
+                        padding: 10px 0px;
+                        background: transparent;
+                        border: 1px solid #01bdd5;
+                        cursor: pointer;
+
+                        a{
+                            text-decoration: none;
+                            color: #01bdd5;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .item:hover{
+            background: #bfe1f7;
+            background-image: url(/assert/logo-right-footer.png);
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-position-x: right;
+            background-position-y: center;
+            
+            .icon-three{
+                i{
+                    color: #707070 !important;
+                }
+            }
+
+            .btn-apply{
+                background: #01bdd5 !important;
+
+                a{
+                    text-decoration: none !important;
+                    color: #fff !important;
+                }
+            }
+
+        }
+    }
+
+    .pd-50{
+        margin: 50px 0;
+        .showall{
+            display: block;
+            margin: auto;
+            color: #fff;
+            padding: 10px 70px;
+            background: #01bdd5;
+            border: 1px solid #01bdd5;
+        }
+    }
+
+    .number{
+        width: 100%;
+        position: relative;
+        background-color: #bfe1f7;
+        height: 200px;
+        .grid-container-number{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            padding: 80px 100px;
+            text-align: center;
+
+            h2{
+                color: #707070;
+                font-size: 30px;
+                margin-bottom: 10px;
+            }
+
+            p{
+                font-size: 18px;
+                background: linear-gradient(to right, #01BDD5, #01A6CA, #008FBE);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .item-number-1{order: 1}
+            .item-number-2{order: 2}
+            .item-number-3{order: 3}
+        }
+    }
+}
